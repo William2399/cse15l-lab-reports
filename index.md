@@ -60,9 +60,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 
     <pre>
       <ul>
-         <li>
-              <i>touch</i>: Create file
-         </li>
+      <i>touch</i>: Create file
     * *cp*: Copy file to specificed directory
     * *open*: Open file
     * *rm*: Delete file
