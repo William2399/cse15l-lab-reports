@@ -68,6 +68,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     - <i>rm -R</i>: Delete non-empty directory
     - <i>cd</i>: Change directory
     - <i>ls</i>: List directory
+    - <i>pwd</i>: Print working directory
     </pre>
    ![](commands_examples.png)
 
