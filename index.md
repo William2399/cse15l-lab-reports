@@ -42,3 +42,18 @@ Next, we will explore how to work on a **remote computer** through VSCode. Becau
 
 ![](remote_server.png)
 
+## Run Some Commands
+
+Attempt to run some terminal commands on your personal computer and the remote computer. This will help to build familiarity with operating on the terminal and provide the opportunity for you to experience what it is like to work on and operate within a remote server.
+
+Commands to try:
+
+* cd (Change Directory): Changecurrent directory
+* ls (Listing Directory): List current directory
+* touch (Create File): Create file
+* open (Open File): Open file
+* cp (Copy File): Copy file to specificed directory
+* rm (Remove File): Delete file
+* mkdir (Create Directory): Create directory
+* rmdir (Remove Empty Directory): Delete empty directory
+* rm -R (Remove Non-Empty Directory): Delete non-empty directory
