@@ -34,16 +34,19 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
     
    Remember to replace the *zz* with the letters at the end of your own CSE 15L account.
 
-5. For your first time connecting to the server, you will receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+5. For your first time connecting to the server, you will receive a message that reads ...
 
    ```
-   Hello this is a test
-   This is test #2
+   #First Time Message
+   % ssh cs15lwi23zz@ieng6.ucsd.edu
+   The authenticity of host 'ieng6-202.%csd.edu (128.54.70.227)' can't be established.
+   RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+   Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+   Password: 
    ```
-
    Procced by typing in **yes** and then entering your account's password. 
    
-   *Please note that your password won't be visable when you type it. Type in your password without any mistakes!*
+   *Please note that your password won't be visable when you type it. Type in your password without any        mistakes!*
    
 6. The terminal should now be connected remotely to another computer.
 
