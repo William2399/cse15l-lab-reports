@@ -31,5 +31,8 @@ Next, we will explore how to work on a **remote computer** through VSCode. Becau
 3. Follow the CSE15L [[TUTORIAL] How to Reset your Passowrd](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE15L course-specific account username and its associated password.
 
 4. Head back to your VSCode terminal and paste in the given command: ![](ssh_command.png)
+
 Make sure you replace the *zz* with the letters at the end of your course-specific account.
+
+5. For first times connecting to the server, you may receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? Process to type in **yes** and enter your account's password.
 
