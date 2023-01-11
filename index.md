@@ -24,3 +24,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. Becau
 
 ![](Terminal.png)
 
+2. A terminal at the bottom of your VSCode window should appear like so.
+
+![](Terminal_pic.png)
+
