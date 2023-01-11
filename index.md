@@ -50,15 +50,15 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 
 1. Commands for you to try:
 
-    * cd: Change directory
-    * ls: List directory
-    * touch: Create file
-    * cp: Copy file to specificed directory
-    * open: Open file
-    * rm: Delete file
-    * mkdir: Create directory
-    * rmdir: Delete empty directory
-    * rm -R: Delete non-empty directory
+    * *cd*: Change directory
+    * *ls*: List directory
+    * *touch*: Create file
+    * *cp*: Copy file to specificed directory
+    * *open*: Open file
+    * *rm*: Delete file
+    * *mkdir*: Create directory
+    * *rmdir*: Delete empty directory
+    * *rm -R*: Delete non-empty directory
 
 2. To exit from the remote computer, simply type in the command **exit**.
 
