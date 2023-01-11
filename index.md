@@ -26,5 +26,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. Becau
 
 2. A terminal at the bottom of your VSCode window should appear like so.
 
-![](Terminal_pic.png)
+![](Terminal_pic.png
+
+3. Follow the CSE15L [[TUTORIAL] How to Reset your Passowrd](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE15L course-specific account username and its associated password.
 
