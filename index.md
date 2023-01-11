@@ -2,3 +2,4 @@
 
 ## Installing VScode
 
+Head to the [VScode website](https://code.visualstudio.com/)
