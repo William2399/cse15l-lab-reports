@@ -62,4 +62,6 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 
 2. To exit from the remote computer, simply type in the command **exit**.
 
+   ![](exit_remote_server.png)
+
 3. Try to run these commmands again on your personal computer once you unconnected from the remote server.
