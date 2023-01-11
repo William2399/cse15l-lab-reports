@@ -2,7 +2,7 @@
 
 ## Installing VScode
 
-**VSCode** is an Integrated Development Environment (IDE) that assists developers in efficiently writing code. This editor also includes "powerful developer tooling, like IntelliSense code completion and debugging" (Visual Studio Code Website).
+**VSCode** is an Integrated Development Environment (IDE) that assists developers in writing code. This editor also includes "powerful developer tooling, like IntelliSense code completion and debugging" (Visual Studio Code Website).
 
 1. Head to the [VScode website](https://code.visualstudio.com/)
 
@@ -34,28 +34,30 @@ Next, we will explore how to work on a **remote computer** through VSCode. Becau
     
    Make sure you replace the *zz* with the letters at the end of your course-specific account.
 
-5. For first times connecting to the server, you may receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+5. Often times if this is your first time connecting to the server, you may receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
    Procced to type in **yes** and enter your account's password. *Please note that your password won't be visable when you type it. Make sure you type in your password without any mistakes!*
    
-6. The terminal should now be connected remotely to another computer.
+6. The terminal should be connected remotely to another computer.
 
 ![](remote_server.png)
 
 ## Run Some Commands
 
-Attempt to run some terminal commands on your personal computer and the remote computer. This will help to build familiarity with operating on the terminal and provide the opportunity for you to experience what it is like to work on and operate within a remote server.
+Attempt to run some terminal commands. This will help to build familiarity with operating on the terminal.
 
 1. Commands are you to try:
 
-* cd (Change Directory): Changecurrent directory
-* ls (Listing Directory): List current directory
-* touch (Create File): Create file
-* open (Open File): Open file
-* cp (Copy File): Copy file to specificed directory
-* rm (Remove File): Delete file
-* mkdir (Create Directory): Create directory
-* rmdir (Remove Empty Directory): Delete empty directory
-* rm -R (Remove Non-Empty Directory): Delete non-empty directory
+    * cd: Change directory
+    * ls: List directory
+    * touch: Create file
+    * open: Open file
+    * cp: Copy file to specificed directory
+    * rm: Delete file
+    * mkdir: Create directory
+    * rmdir: Delete empty directory
+    * rm -R: Delete non-empty directory
 
 2. To exit from the remote computer, simply type in the command **exit**.
+
+3. Now, try to run these commmands again on your personal computer once you unconnected from the remote server.
