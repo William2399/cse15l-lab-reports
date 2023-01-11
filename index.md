@@ -8,13 +8,13 @@
 
 2. Download the installer that corresponds to your computer's operating system (ex. macOS, Windows x64, Linux x64)
 
-![](Download_VSCode.png)
+   ![](Download_VSCode.png)
 
 3. After downloading the installer, click on it and follow instructions to install VSCode
 
 4. Once successfully installed, click on the program to run it
 
-![](VSCode.png)
+   ![](VSCode.png)
 
 ## Remotely Connecting
 
