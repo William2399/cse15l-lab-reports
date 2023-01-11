@@ -2,7 +2,7 @@
 
 ## Installing VScode
 
-Note: **VSCode** is an Integrated Development Environment (IDE) that assists developers in efficiently writing code. This editor also includes "powerful developer tooling, like IntelliSense code completion and debugging" (Visual Studio Code Website).
+**VSCode** is an Integrated Development Environment (IDE) that assists developers in efficiently writing code. This editor also includes "powerful developer tooling, like IntelliSense code completion and debugging" (Visual Studio Code Website).
 
 1. Head to the [VScode website](https://code.visualstudio.com/)
 
@@ -17,5 +17,6 @@ Note: **VSCode** is an Integrated Development Environment (IDE) that assists dev
 
 ## Remotely Connecting
 
+Next, we will explore how to work on a **remote computer** through VSCode. Because UCSD features many courses that have course-specific accounts, learning how to make use of these accounts to connect to a remote server is an essential skill programmers should learn, whether it be for school or a job.
 
 1. 
