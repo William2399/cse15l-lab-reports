@@ -59,7 +59,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 1. Commands for you to try:
 
     ```
-    * *touch*: Create file
+    * <i>touch</i>: Create file
     * *cp*: Copy file to specificed directory
     * *open*: Open file
     * *rm*: Delete file
