@@ -68,7 +68,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     * *rm -R*: Delete non-empty directory
     * *cd*: Change directory
     * *ls*: List directory
-    <code>
+    </code>
     
    ![](commands_examples.png)
 
