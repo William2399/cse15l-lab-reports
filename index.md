@@ -37,7 +37,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
 5. For your first time connecting to the server, you will receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
    ```
-   #Hello this is a test
+   Hello this is a test
    This is test #2
    ```
 
