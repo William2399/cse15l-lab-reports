@@ -4,7 +4,7 @@
 
 **VSCode** is an Integrated Development Environment (IDE) that developers can use to efficiently write code. The editor provides additional functionality to improve one's quality of life including a debugger and auto-fill.
 
-**1.** Head to the [VScode website](https://code.visualstudio.com/)
+1. Head to the [VScode website](https://code.visualstudio.com/)
 
 2. Download the installer that corresponds to your computer's operating system (ex. macOS, Windows x64, Linux x64)
 
@@ -58,6 +58,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 
 1. Commands for you to try:
 
+    ```
     * *touch*: Create file
     * *cp*: Copy file to specificed directory
     * *open*: Open file
@@ -67,7 +68,8 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     * *rm -R*: Delete non-empty directory
     * *cd*: Change directory
     * *ls*: List directory
-
+    ```
+    
    ![](commands_examples.png)
 
 2. To exit from the remote computer, simply type in the command **exit**.
