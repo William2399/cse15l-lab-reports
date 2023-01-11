@@ -28,7 +28,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
 
    ![](Terminal_pic.png)
 
-3. Follow the CSE 15L [[TUTORIAL] How to Reset your Passowrd](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE 15L account username and its associated password.
+3. Follow the CSE 15L [[TUTORIAL] How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE 15L account username and its associated password.
 
 4. Head back to your VSCode terminal and paste in the given command: ![](ssh_command.png) 
     
