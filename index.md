@@ -3,4 +3,4 @@
 ## Installing VScode
 
 1. Head to the [VScode website](https://code.visualstudio.com/)
-2. ![Download_VSCode.png]
+2. ![alt text](Download_VSCode.png "Title")
