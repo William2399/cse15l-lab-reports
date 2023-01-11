@@ -2,7 +2,7 @@
 
 ## Installing VScode
 
-**VSCode** is an Integrated Development Environment (IDE) where developers can efficiently write code. The editor also provides additional functionality including a debugger and auto-fill.
+**VSCode** is an Integrated Development Environment (IDE) that developers can use to efficiently write code. The editor provides additional functionality to improve one's quality of life including a debugger and auto-fill.
 
 1. Head to the [VScode website](https://code.visualstudio.com/)
 
@@ -12,15 +12,15 @@
 
 3. After downloading the installer, click on it and follow instructions to install VSCode
 
-4. Once successfully installed, click on the program to run it
+4. Once successfully installed, click on the program to run it. A VSCode window like the one below should then appear
 
    ![](VSCode.png)
 
 ## Remotely Connecting
 
-Next, we will explore how to work on a **remote computer** through VSCode. It is important for programmers to learn how to make use of remote servers, a skill relevant both in school and the workforce.
+Next, we will explore how to work on a **remote computer** through VSCode. It is important for programmers to learn how to make use of remote servers, a skill relevant both in higher-education and the workforce.
 
-1. In VSCode, open the terminal. You can use the Ctrl+` shortcut or clicking on 'New Terminal' found by hovering over the Terminal option in the menu. 
+1. In VSCode, open the terminal. You can use the Ctrl+` shortcut or clicking on 'New Terminal' found by hovering over the 'Terminal' option in the menu. 
 
    ![](Terminal.png)
 
@@ -28,15 +28,15 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
 
    ![](Terminal_pic.png)
 
-3. Follow the CSE 15L [[TUTORIAL] How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE 15L account username and its associated password.
+3. Follow the CSE 15L [[TUTORIAL] How to Reset your Password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE 15L account username and its associated password somewhere safe!
 
 4. Head back to your VSCode terminal and paste in the given command: ![](ssh_command.png) 
     
-   Make sure you replace the *zz* with the letters at the end of your own CSE 15L account.
+   Remember to replace the *zz* with the letters at the end of your own CSE 15L account.
 
 5. For your first time connecting to the server, you will receive a message that reads in part "The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established ... Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
-   Procced to type in **yes** and enter your account's password. 
+   Procced by typing in **yes** and then entering your account's password. 
    
    *Please note that your password won't be visable when you type it. Type in your password without any mistakes!*
    
