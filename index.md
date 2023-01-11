@@ -38,6 +38,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
 
    ```
    #Hello this is a test
+   This is test #2
    ```
 
    Procced by typing in **yes** and then entering your account's password. 
