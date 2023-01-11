@@ -69,7 +69,6 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     - <i>cd</i>: Change directory
     - <i>ls</i>: List directory
     </pre>
-    
    ![](commands_examples.png)
 
 2. To exit from the remote computer, simply type in the command **exit**.
