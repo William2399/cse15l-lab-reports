@@ -4,7 +4,7 @@
 
 **VSCode** is an Integrated Development Environment (IDE) that developers can use to efficiently write code. The editor provides additional functionality to improve one's quality of life including a debugger and auto-fill.
 
-1. __Head to the [VScode website](https://code.visualstudio.com/)__
+1. <ins>Head to the [VScode website](https://code.visualstudio.com/)</ins>
 
 2. Download the installer that corresponds to your computer's operating system (ex. macOS, Windows x64, Linux x64)
 
