@@ -59,17 +59,15 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 1. Commands for you to try:
 
     <pre>
-      <ul>
-      <i>touch</i>: Create file
-    * *cp*: Copy file to specificed directory
-    * *open*: Open file
-    * *rm*: Delete file
-    * *mkdir*: Create directory
-    * *rmdir*: Delete empty directory
-    * *rm -R*: Delete non-empty directory
-    * *cd*: Change directory
-    * *ls*: List directory
-      </ul>
+    - <i>touch</i>: Create file
+    - <i>cp</i>: Copy file to specificed directory
+    - <i>open</i>: Open file
+    - <i>rm</i>: Delete file
+    - <i>mkdir</i>: Create directory
+    - <i>rmdir</i>: Delete empty directory
+    - <i>rm -R</i>: Delete non-empty directory
+    - <i>cd</i>: Change directory
+    - <i>ls</i>: List directory
     </pre>
     
    ![](commands_examples.png)
