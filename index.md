@@ -13,10 +13,14 @@
 3. After downloading the installer, click on it and follow instructions in order to install VSCode.
 
 4. Once installed, click on the program in order to run it. A window that looks like the image below should appear. 
+
 ![](VSCode.png)
 
 ## Remotely Connecting
 
 Next, we will explore how to work on a **remote computer** through VSCode. Because UCSD features many courses that have course-specific accounts, learning how to make use of these accounts to connect to a remote server is an essential skill programmers should learn, whether it be for school or a job.
 
-1. 
+1. Open a terminal in VSCode. Two options to do so include using the Ctrl+` shortcut or clicking on 'New Terminal' found by hovering over the Terminal option found in the menu. 
+
+![](Terminal.png)
+
