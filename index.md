@@ -60,7 +60,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     * *cd*: Change directory
     * *ls*: List directory
 
-   ![](commands_example.png)
+   ![](commands_examples.png)
 
 2. To exit from the remote computer, simply type in the command **exit**.
 
