@@ -22,11 +22,11 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
 
 1. In VSCode, open the terminal. You can use the Ctrl+` shortcut or clicking on 'New Terminal' found by hovering over the Terminal option in the menu. 
 
-![](Terminal.png)
+   ![](Terminal.png)
 
 2. A terminal at the bottom of your VSCode window should appear like so.
 
-![](Terminal_pic.png)
+   ![](Terminal_pic.png)
 
 3. Follow the CSE 15L [[TUTORIAL] How to Reset your Passowrd](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit). Make sure you record your CSE 15L account username and its associated password.
 
@@ -42,7 +42,7 @@ Next, we will explore how to work on a **remote computer** through VSCode. It is
    
 6. The terminal should now be connected remotely to another computer.
 
-![](remote_server.png)
+   ![](remote_server.png)
 
 ## Run Some Commands
 
