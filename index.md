@@ -59,7 +59,10 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
 1. Commands for you to try:
 
     <pre>
-    * <i>touch</i>: Create file
+      <ul>
+         <li>
+              <i>touch</i>: Create file
+         </li>
     * *cp*: Copy file to specificed directory
     * *open*: Open file
     * *rm*: Delete file
@@ -68,6 +71,7 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
     * *rm -R*: Delete non-empty directory
     * *cd*: Change directory
     * *ls*: List directory
+      </ul>
     </pre>
     
    ![](commands_examples.png)
