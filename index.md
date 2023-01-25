@@ -228,9 +228,11 @@ Here is what the method originally looked like without fixing the bug:
        if(num != lowest) { sum += num; }
        if(num == lowest) { <strong>count+=1;</strong>}
      }
-   <strong>return sum / (arr.length - count);</strong>
+     <strong>return sum / (arr.length - count);</strong>
  }
    </pre>
+   
+   You can see that the fixed code includes a count variable that is first initialized to zero. When the input array is looped over using the for loop, an if conditional is added that first checks if the given number is equal to the identified lowest number and if it is, increase the count by one. This way, the count variable acts as a record that contains the total number of times the lowest int appears in the input array. Then, in the return statement at the end of the method, the sum is divided by the original length minus the count, thereby making sure that the average is only accounting for numbers in the input array that aren't the lowest integer.
 
 ## Part 3: Reflection
    
