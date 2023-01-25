@@ -176,13 +176,22 @@ Here is what the method originally looked like without fixing the bug:
    
    * An example of an input that _doesn't_ induce a failure ...
    
-   <prev>
+   <pre>
    @Test
    public void testAverageWithoutLowest(){
-       <strong> double[] input1 = {1,2,3}; </strong>
-        assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.1);
+       <strong> double[] input2 = {1,2,3}; </strong>
+        assertEquals(2.5, ArrayExamples.averageWithoutLowest(input2), 0.1);
    }
    </pre>
+   
+   * Symptom of _input1_
+   
+   ![](input1_test.png)
+   
+   * Symptom of _input2_
+   
+   ![](input2_test.png)
+   
 
 ## Part 3: Reflection
    
