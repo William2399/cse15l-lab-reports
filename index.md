@@ -192,6 +192,24 @@ Here is what the method originally looked like without fixing the bug:
    
    ![](input2_test.png)
    
+   * The bug, _as the before-and-after code change required to fix it_
+   
+   The bug that causes this error is that while the code can correctly identify what element in the input array is the lowest integer, it does not correctly count for instances in which the input array has multiple elements that are of the same lowest integer. The reason is because when it provides the division required to calculate the average, the length is not correctly subtracted. Instead of subtracting by the total amount of times in which the lowest integer appeared in the array, it always subtracts by a singular value of 1. The code of the bug can be seen below ...
+   
+   <pre>
+   static double averageWithoutLowest(double[] arr) {
+     if(arr.length < 2) { return 0.0; }
+     double lowest = arr[0];
+     for(double num: arr) {
+       if(num < lowest) { lowest = num; }
+     }
+     double sum = 0;
+     for(double num: arr) {
+       if(num != lowest) { sum += num; }
+     }
+   <strong>return sum / (arr.length - 1);</strong>
+   }
+   </pre>
 
 ## Part 3: Reflection
    
