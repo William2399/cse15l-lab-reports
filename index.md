@@ -181,6 +181,8 @@ Here is what the method originally looked like without fixing the bug:
    public void testAverageWithoutLowest(){
        <strong> double[] input1 = {1,2,3}; </strong>
         assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.1);
+   }
+   </pre>
 
 ## Part 3: Reflection
    
