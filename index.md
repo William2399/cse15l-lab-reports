@@ -129,5 +129,10 @@ class StringServer {
      ![](hello.png)
      
      * Which methods in your code are called?
+       
+       There are several methods in my code that are called when the user inputs the request /add-message?s=Hello. For starters, the handleRequest(URI url) method is called once the user enters in the updated url with the specified query. Inside this handleRequest method, a variety of pre-exisiting methods like getPath(), contains(), and add(). These combinations of methods allow for the server to identity the user's query and act with the appropriate response. In this case, we are looking to update the web page with each of the user's inputted strings.
+       
      * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+
      * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
