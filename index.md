@@ -134,5 +134,8 @@ class StringServer {
        
      * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
+       A relevant argument that is inputted into the handleRequest is the argument URI url. This argument is the URL that the user provides to the web server. A field that is part of the Handler class is string_list, which is a String arraylist that holds each and every one of the strings the user provides.
 
      * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+       The one field of the class, string_list, is the main defining component that is impacted by a specific request. This is because with each request that seeks to add a message through the format /add-message?s=<string>, the field string_list is updated to include that given <string>. This is because one of the required functionality of the web page is to "keep track of a single string that gets added to by incoming requests". In this case, string_list is the variable that keeps a record of each "request".
