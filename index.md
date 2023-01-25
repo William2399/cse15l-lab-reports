@@ -163,6 +163,16 @@ The bug I will analyze from Lab 3 is from the method **static double averageWith
 Here is what the method originally looked like without fixing the bug:
    
    ![](averageWithoutLowest_original.png)
+   
+   * An example of a _failure-inducing input/test_ for this method is ...
+   
+   <pre>
+   @Test
+   public void testAverageWithoutLowest(){
+        <strong> double[] input1 = {1,1,2,3}; </strong>
+        assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.1);
+   }
+   </pre>
 
 ## Part 3: Reflection
    
