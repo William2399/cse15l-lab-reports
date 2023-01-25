@@ -159,6 +159,10 @@ class StringServer {
 ## Part 2: Analyzing Bugs
    
 The bug I will analyze from Lab 3 is from the method **static double averageWithoutLowest(double[] arr)**, which can be found in ArrayExamples.java.
+   
+Here is what the method originally looked like without fixing the bug:
+   
+   ![](averageWithoutLowest_original.png)
 
 ## Part 3: Reflection
    
