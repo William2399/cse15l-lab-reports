@@ -169,10 +169,18 @@ Here is what the method originally looked like without fixing the bug:
    <pre>
    @Test
    public void testAverageWithoutLowest(){
-      <strong> double[] input1 = {1,1,2,3}; </strong>
+       <strong> double[] input1 = {1,1,1,2,3}; </strong>
         assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.1);
    }
    </pre>
+   
+   * An example of an input that _doesn't_ induce a failure ...
+   
+   <prev>
+   @Test
+   public void testAverageWithoutLowest(){
+       <strong> double[] input1 = {1,2,3}; </strong>
+        assertEquals(2.5, ArrayExamples.averageWithoutLowest(input1), 0.1);
 
 ## Part 3: Reflection
    
