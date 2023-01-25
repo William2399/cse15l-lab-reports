@@ -77,3 +77,51 @@ Attempt to run basic terminal commands. This will help to build familiarity in o
    ![](exit_remote_server.png)
 
 3. Try to run these commmands again on your personal computer once you unconnected from the remote server.
+
+# Week 3 Lab Report (Tuesday, January 24)
+
+## Part 1: StringServer
+
+```
+#Code for StringServer.java
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+
+class Handler implements URLHandler {
+    ArrayList<String> string_list = new ArrayList<>();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().contains("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                String input = parameters[1];
+                string_list.add(input);
+                String result = "";
+                for (String item : string_list){
+                    result+=item + "\n";
+                }
+                return result;
+            }
+            return "Not valid";
+        } else {
+                return string_list.toString();
+        }
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+
