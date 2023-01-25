@@ -128,14 +128,20 @@ class StringServer {
 
      ![](hello.png)
      
-     * __Which methods in your code are called?__
+     * _Which methods in your code are called?_
        
        There are several methods in my code that are called when the user inputs the request /add-message?s=Hello. For starters, the handleRequest(URI url) method is called once the user enters in the updated url with the specified query. Inside this handleRequest method, a variety of pre-exisiting methods like getPath(), contains(), and add(). These combinations of methods allow for the server to identity the user's query and act with the appropriate response. In this case, we are looking to update the web page with each of the user's inputted strings.
        
-     * __What are the relevant arguments to those methods, and the values of any relevant fields of the class?__
+     * _What are the relevant arguments to those methods, and the values of any relevant fields of the class?_
 
        A relevant argument that is inputted into the handleRequest is the argument URI url. This argument is the URL that the user provides to the web server. A field that is part of the Handler class is string_list, which is a String arraylist that holds each and every one of the strings the user provides.
 
-     * __How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.__
+     * _How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why._
 
        The one field of the class, string_list, is the main defining component that is impacted by a specific request. This is because with each request that seeks to add a message through the format /add-message?s=<string>, the field string_list is updated to include that given <string>. This is because one of the required functionality of the web page is to "keep track of a single string that gets added to by incoming requests". In this case, string_list is the variable that keeps a record of each "request".
+   
+2. **/add-message?s=How are you**
+   
+     ![](how_are_you.png)
+   
+     * _Which methods in your code are called?_
