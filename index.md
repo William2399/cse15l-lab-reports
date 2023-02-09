@@ -248,6 +248,15 @@ The first resource I used is ChatGPT, where I simply provided the input prompt "
    
 On the other hand, I also used the command man in the terminal in order to find further information about the *grep* command. This was acheived by typing in the terminal *man grep*, which then outputed an informative and comprehensive list about the functionality of *grep*.
 
-
-
+1. -r
+   
+   * <pre>
+   grep
+   </pre>
+   
+2. -i
+   
+3. -l
+   
+4. -L
 
