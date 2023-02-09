@@ -238,5 +238,12 @@ Here is what the method originally looked like without fixing the bug:
    
    * One thing that I was excited and glad to have learned in lab 2 about is how to build and run a server, especially a server on a remote computer. Not only can I run and test my code on a local server using my own personal computer, a server constructed on a remote machine can allow for multiple developers to work on and contribute to the server's code and files. Another interesting feature that I find to be useful is how the server's web page is no longer restricted to a local computer, but rather can be accessed by other computers as well.
 
+# Week 5 Lab Report (Thursday, February 9)
+   
+## Researching Commands 
+   
+The command I will focus on is *grep*. 
+
+
 
 
