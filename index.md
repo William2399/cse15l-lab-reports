@@ -254,7 +254,11 @@ On the other hand, I also used the command man in the terminal in order to find 
      grep -r "loyalist" written_2/travel_guides/berlitz1/HistoryIbiza.txt
      written_2/travel_guides/berlitz1/HistoryIbiza.txt:        tragedy. Ibiza, Formentera, and Menorca were all captured by loyalist
      </pre> 
-
+   
+   * <pre>
+      grep -r "shark" written_2/travel_guides/berlitz1/WhatToMadeira.txt
+      written_2/travel_guides/berlitz1/WhatToMadeira.txt:        yellow-fin), barracuda, swordfish, wahoo, and shark (hammerhead, maco,
+     </pre> 
    
 2. -i
    
