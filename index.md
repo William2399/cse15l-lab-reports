@@ -248,7 +248,7 @@ The first resource I used is ChatGPT, where I simply provided the input prompt "
    
 On the other hand, I also used the command man in the terminal in order to find further information about the *grep* command. This was acheived by typing in the terminal *man grep*, which then outputed an informative and comprehensive list about the functionality of *grep*.
 
-1. -r
+1. -r: short for "recursively", -r is a command option that makes it so that the given command like *grep* searches through not just the current directory, but also through all of its subdirectories. It is a useful command when you wish to find a specific item/pattern within a directory that contains not just a large amount of files, but also nested directories within as well.
    
    * <pre>
      grep -r "loyalist" written_2/travel_guides/berlitz1/HistoryIbiza.txt
@@ -260,9 +260,91 @@ On the other hand, I also used the command man in the terminal in order to find 
       written_2/travel_guides/berlitz1/WhatToMadeira.txt:        yellow-fin), barracuda, swordfish, wahoo, and shark (hammerhead, maco,
      </pre> 
    
-2. -i
+2. -i: this option will ignore cases. In terms of the *grep* command, the matches will ignore distinctions between upper and lower letters. This is a great command to use if you do not care about the capitalization of the pattern you are searching for and just care about the word/string itself.
    
-3. -l
+    * <pre>
+      grep -i "BREAD" written_2/travel_guides/berlitz1/WhatToJamaica.txt
+      breadfruit along with the jerk to provide the perfect bland antidote to
+        Captain Bligh of “The Bounty” fame first landed breadfruit on Jamaica.
+      </pre> 
    
-4. -L
+    * <pre>
+      grep -i "RoYAlTy" written_2/travel_guides/berlitz1/WhatToMalaysia.txt
+      royalty, but today elegant geometric or exuberant, stylized floral
+        dagger motifs. Songket was originally reserved for royalty, but is
+      </pre> 
+   
+3. -l: Rather than print the lines that contain the match of the pattern, provide the names of the files that have the match instead. This is a helpful option to use if you wish to only know the files that have the pattern you want to find.
+   
+    * <pre>
+      grep -l "potato" written_2/travel_guides/berlitz1/*
+      written_2/travel_guides/berlitz1/HandRIsrael.txt
+      written_2/travel_guides/berlitz1/HistoryDublin.txt
+      written_2/travel_guides/berlitz1/HistoryJapan.txt
+      written_2/travel_guides/berlitz1/WhatToIbiza.txt
+      written_2/travel_guides/berlitz1/WhereToEdinburgh.txt
+      written_2/travel_guides/berlitz1/WhereToFWI.txt
+      written_2/travel_guides/berlitz1/WhereToFrance.txt
+      </pre> 
+
+    * <pre>
+      grep -l "cooking" written_2/travel_guides/berlitz2/*
+      written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Canada-History.txt
+      written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt
+      written_2/travel_guides/berlitz2/China-History.txt
+      written_2/travel_guides/berlitz2/China-WhatToDo.txt
+      written_2/travel_guides/berlitz2/China-WhereToGo.txt
+      written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Crete-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
+      </pre> 
+   
+4. -L: The complete opposite of the -l command, -L will only print out the file names of those that do not match or contain the provided pattern. This can assist you when you want to know what files do not contain a specific keyword.
+   
+    * <pre>
+      grep -L "people" written_2/travel_guides/berlitz2/*
+      written_2/travel_guides/berlitz2/Algarve-Intro.txt
+      written_2/travel_guides/berlitz2/Beijing-History.txt
+      written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
+      written_2/travel_guides/berlitz2/California-WhatToDo.txt
+      written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Poland-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Vallarta-History.txt
+      written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
+      </pre> 
+  
+     * <pre>
+      grep -L "culture" written_2/travel_guides/berlitz2/*
+      written_2/travel_guides/berlitz2/Algarve-Intro.txt
+      written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Athens-Intro.txt
+      written_2/travel_guides/berlitz2/Athens-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Athens-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Bahamas-Intro.txt
+      written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Boston-WhereToGo.txt
+      written_2/travel_guides/berlitz2/California-WhatToDo.txt
+      written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt
+      written_2/travel_guides/berlitz2/China-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Costa-WhatToDo.txt
+      written_2/travel_guides/berlitz2/CostaBlanca-History.txt
+      written_2/travel_guides/berlitz2/Crete-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Cuba-History.txt
+      written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
+      written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+      written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
+      </pre>
 
