@@ -242,7 +242,11 @@ Here is what the method originally looked like without fixing the bug:
    
 ## Researching Commands 
    
-The command I will focus on is *grep*. 
+The command I will focus on is *grep*, a command whose primary purpose is to search for a provided pattern such as a string or word within text files. For the 4 command-line options explored below for *grep*, I found out about them from two sources. 
+   
+The first resource I used is ChatGPT, where I simply provided the input prompt "what are some additional add-ons I can include with the grep command?". As a result, I received a lot of command options for *grep* and helpful corresponding descriptions.
+   
+On the other hand, I also used the command man in the terminal in order to find further information about the *grep* command. This was acheived by typing in the terminal *man grep*, which then outputed an informative and comprehensive list about the functionality of *grep*.
 
 
 
