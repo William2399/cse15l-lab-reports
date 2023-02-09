@@ -318,8 +318,8 @@ On the other hand, I also used the command man in the terminal in order to find 
       written_2/travel_guides/berlitz2/Vallarta-History.txt
       written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
       </pre> 
-  
-     * <pre>
+
+    * <pre>
       grep -L "culture" written_2/travel_guides/berlitz2/*
       written_2/travel_guides/berlitz2/Algarve-Intro.txt
       written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt
@@ -346,7 +346,4 @@ On the other hand, I also used the command man in the terminal in order to find 
       written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
       written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
       written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
-      </pre>
- 
-  a
-
+      </pre> 
