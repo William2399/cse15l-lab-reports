@@ -250,10 +250,10 @@ On the other hand, I also used the command man in the terminal in order to find 
 
 1. -r
    
-   * 
-   <pre>
-   grep
-   </pre>
+   * <pre>
+     grep
+     </pre>
+
    
 2. -i
    
