@@ -251,8 +251,9 @@ On the other hand, I also used the command man in the terminal in order to find 
 1. -r
    
    * <pre>
-     grep
-     </pre>
+     grep -r "loyalist" written_2/travel_guides/berlitz1/HistoryIbiza.txt
+     written_2/travel_guides/berlitz1/HistoryIbiza.txt:        tragedy. Ibiza, Formentera, and Menorca were all captured by loyalist
+     </pre> 
 
    
 2. -i
