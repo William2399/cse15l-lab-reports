@@ -422,8 +422,10 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    git clone git@github.com:username/lab7.git. <enter>
-   </pre>
+    git clone git@github.com:username/lab7.git.
+    </pre>
+    
+    <enter>
    
    Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
    
