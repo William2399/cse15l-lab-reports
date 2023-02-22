@@ -382,3 +382,25 @@ Scroll to the bottom and click *Delete this repository*
 <img width="1059" alt="Screen Shot 2023-02-22 at 2 46 35 PM" src="https://user-images.githubusercontent.com/87922125/220777562-e0ae4fa2-7d74-4c98-a8a4-c30a8800ba17.png">
    
 You will be prompted to type in the name of the directory to delete it.
+   
+2. **Setup** Fork the repository
+   
+Go to the *lab 7 repo* and go to the top right and click the fork button. You will be directed to this page.
+   
+<img width="918" alt="Screen Shot 2023-02-22 at 2 49 49 PM" src="https://user-images.githubusercontent.com/87922125/220778114-1009ddf6-c49c-4932-80a3-ad0d6d11d653.png">
+
+Click on 'Create fork' in order to create a forked repository of the *lab 7 repo*. The process will take a few seconds, but you should then see your newly created lab 7 repository. 
+   
+3. *The real deal* Start the timer!
+   
+4. Log into ieng6
+ 
+5. Clone your fork of the repository from your Github acount
+   
+6. Run the tests, demonstrating that they fail
+   
+7. Edit the code file to fix the failing test
+   
+8. Run the tests, demonstrating that they now succeed
+   
+9. Commit and push the resulting change to your Github account
