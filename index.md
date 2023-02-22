@@ -412,7 +412,31 @@ On the other hand, I also used the command man in the terminal in order to find 
    <img width="1126" alt="Screen Shot 2023-02-22 at 3 49 27 PM" src="https://user-images.githubusercontent.com/87922125/220789659-8aa6be07-8f07-4f23-966e-772abae7eeb1.png">
  
 5. Clone your fork of the repository from your Github acount
+
+   Next, you need to clone your forked repository of lab7 onto your remote account. This can be achieved by first getting the SSH clone URL from your Github repository. Navigate to your repository on your browser, click on the green *Code* button, select the *SSH* option and copy the following url. Here is a screenshot of what your page should look like.
    
+   <img width="1097" alt="Screen Shot 2023-02-22 at 3 51 58 PM" src="https://user-images.githubusercontent.com/87922125/220790338-6d4dc038-c50a-41d7-9ada-3fa42e807b61.png">
+
+   Once you copied your SSH URL, go back to your remote account terminal and type in the following command
+   
+   *Keys pressed:* 
+
+   <pre>
+    git clone git@github.com:username/lab7.git. <enter>
+   </pre>
+   
+   Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
+   
+   *Keys pressed:* 
+
+   <pre>
+    ls <enter>
+   </pre>
+   
+   in order to see all files and directories present in your current working directory. In such a list, you should see *lab7*.
+   
+   <img width="342" alt="Screen Shot 2023-02-22 at 3 55 32 PM" src="https://user-images.githubusercontent.com/87922125/220790801-4a599133-e28c-449c-b358-10ce3a9f4202.png">
+
 6. Run the tests, demonstrating that they fail
    
 7. Edit the code file to fix the failing test
