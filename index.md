@@ -364,8 +364,8 @@ On the other hand, I also used the command man in the terminal in order to find 
 *Keys pressed:* 
    
     * <pre>
-    cd ..
-    </pre>
+      cd ..
+      </pre> 
 
 
    
