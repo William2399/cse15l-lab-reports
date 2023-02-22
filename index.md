@@ -364,9 +364,9 @@ On the other hand, I also used the command man in the terminal in order to find 
       *Keys pressed:* 
 
       <pre>
-       cd ..          <enter>
-       rm -rf lab7    <enter>
-       exit.          <enter>
+       cd ..          &lt;enter&gt;
+       rm -rf lab7    &lt;enter&gt;
+       exit.          &lt;enter&gt;
       </pre> 
 
       The *cd ..* command is used to go back up to the parent directory, as currently we are in the lab7 directory. Next, to actually remove the directory from our remote server account, we can use the *rm -rm lab7*. Separating this command into individual parts, the *rm* is the general command to remove files and directories. The additional option *-rf* is necessary because the directory we want to delete has files contained inside of it so this option forcefully removes all of it and the directory itself. Finally, we specifically which directory we want to delete, which in this case is *lab7*. The next step is to back out ofthe remote account to go back toour local terminal, which is done using. the *exit* command.
@@ -403,8 +403,8 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    ssh ssh cs15lwi23___@ieng6.ucsd.edu    \<enter\>
-    Password: __________                   \<enter\>
+    ssh ssh cs15lwi23___@ieng6.ucsd.edu    &lt;enter&gt;
+    Password: __________                   &lt;enter&gt;
    </pre> 
    
    If your password is correctly typed in, your terminal should swtich to your remote account and list out information like that of the screenshot below.
@@ -422,7 +422,7 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    git clone git@github.com:username/lab7.git. \<enter\>
+    git clone git@github.com:username/lab7.git &lt;enter&gt;
     </pre>
    
    Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
@@ -430,7 +430,7 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    ls <enter>
+    ls &lt;enter&gt;
    </pre>
    
    in order to see all files and directories present in your current working directory. In such a list, you should see *lab7*.
