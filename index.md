@@ -385,11 +385,11 @@ On the other hand, I also used the command man in the terminal in order to find 
    
 2. **Setup** Fork the repository
    
-Go to the *lab 7 repo* and go to the top right and click the fork button. You will be directed to this page.
-   
-<img width="918" alt="Screen Shot 2023-02-22 at 2 49 49 PM" src="https://user-images.githubusercontent.com/87922125/220778114-1009ddf6-c49c-4932-80a3-ad0d6d11d653.png">
+   Go to the *lab 7 repo* and go to the top right and click the fork button. You will be directed to this page.
 
-Click on 'Create fork' in order to create a forked repository of the *lab 7 repo*. The process will take a few seconds, but you should then see your newly created lab 7 repository. 
+   <img width="918" alt="Screen Shot 2023-02-22 at 2 49 49 PM" src="https://user-images.githubusercontent.com/87922125/220778114-1009ddf6-c49c-4932-80a3-ad0d6d11d653.png">
+
+   Click on 'Create fork' in order to create a forked repository of the *lab 7 repo*. The process will take a few seconds, but you should then see your newly created lab 7 repository. 
    
 3. *The real deal* Start the timer!
    
