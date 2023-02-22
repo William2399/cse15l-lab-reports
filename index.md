@@ -403,8 +403,8 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    ssh ssh cs15lwi23___@ieng6.ucsd.edu    <enter>
-    Password: __________                   <enter>
+    ssh ssh cs15lwi23___@ieng6.ucsd.edu    \<enter\>
+    Password: __________                   \<enter\>
    </pre> 
    
    If your password is correctly typed in, your terminal should swtich to your remote account and list out information like that of the screenshot below.
@@ -422,10 +422,8 @@ On the other hand, I also used the command man in the terminal in order to find 
    *Keys pressed:* 
 
    <pre>
-    git clone git@github.com:username/lab7.git.
+    git clone git@github.com:username/lab7.git. \<enter\>
     </pre>
-    
-    <enter>
    
    Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
    
