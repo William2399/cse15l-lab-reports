@@ -372,3 +372,13 @@ On the other hand, I also used the command man in the terminal in order to find 
 The *cd ..* command is used to go back up to the parent directory, as currently we are in the lab7 directory. Next, to actually remove the directory from our remote server account, we can use the *rm -rm lab7*. Separating this command into individual parts, the *rm* is the general command to remove files and directories. The additional option *-rf* is necessary because the directory we want to delete has files contained inside of it so this option forcefully removes all of it and the directory itself. Finally, we specifically which directory we want to delete, which in this case is *lab7*. The next step is to back out ofthe remote account to go back toour local terminal, which is done using. the *exit* command.
    
 **Note:** The *ls* commands seen in the above screenshot are not necessary to the process of deleting the *lab7* directory. they are only there to help the reader visualize what files and directories are present before and after the *rm* command
+   
+Then, go towards your github repository in order to delete it. You can do this by going to the browser that has the lab7, click to the far-right on *Settings*
+
+<img width="1079" alt="Screen Shot 2023-02-22 at 2 46 12 PM" src="https://user-images.githubusercontent.com/87922125/220777510-55e96606-0287-46a3-bb11-d1187a93ddb2.png">
+   
+Scroll to the bottom and click *Delete this repository*
+
+<img width="1059" alt="Screen Shot 2023-02-22 at 2 46 35 PM" src="https://user-images.githubusercontent.com/87922125/220777562-e0ae4fa2-7d74-4c98-a8a4-c30a8800ba17.png">
+   
+You will be prompted to type in the name of the directory to delete it.
