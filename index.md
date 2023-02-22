@@ -352,3 +352,20 @@ On the other hand, I also used the command man in the terminal in order to find 
       written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
       written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
       </pre> 
+  
+# Week 8 Lab Report (Wednesday, February 22)
+
+## Challenge Tasks
+   
+1. **Setup** Delete any existing forks of the repository you have on your account
+   
+<img width="1007" alt="Screen Shot 2023-02-22 at 1 47 00 PM" src="https://user-images.githubusercontent.com/87922125/220766739-42d43abc-9350-4c87-bf6e-eeb9673d9a2a.png">
+
+*Keys pressed:* 
+   
+    * <pre>
+    cd ..
+    </pre>
+
+
+   
