@@ -364,9 +364,9 @@ On the other hand, I also used the command man in the terminal in order to find 
       *Keys pressed:* 
 
       <pre>
-       cd ..
-       rm -rf lab7
-       exit
+       cd ..          <enter>
+       rm -rf lab7    <enter>
+       exit.          <enter>
       </pre> 
 
       The *cd ..* command is used to go back up to the parent directory, as currently we are in the lab7 directory. Next, to actually remove the directory from our remote server account, we can use the *rm -rm lab7*. Separating this command into individual parts, the *rm* is the general command to remove files and directories. The additional option *-rf* is necessary because the directory we want to delete has files contained inside of it so this option forcefully removes all of it and the directory itself. Finally, we specifically which directory we want to delete, which in this case is *lab7*. The next step is to back out ofthe remote account to go back toour local terminal, which is done using. the *exit* command.
@@ -393,7 +393,23 @@ On the other hand, I also used the command man in the terminal in order to find 
    
 3. *The real deal* Start the timer!
    
+   From here on out, start your time so you can record how fast you can complete the following tasks!
+   
 4. Log into ieng6
+
+   On your local terminal, use the following command to log in to your CSE15l course-specific account.
+   
+   
+   *Keys pressed:* 
+
+   <pre>
+    ssh ssh cs15lwi23___@ieng6.ucsd.edu    <enter>
+    Password: __________                   <enter>
+   </pre> 
+   
+   If your password is correctly typed in, your terminal should swtich to your remote account and list out information like that of the screenshot below.
+   
+   <img width="1126" alt="Screen Shot 2023-02-22 at 3 49 27 PM" src="https://user-images.githubusercontent.com/87922125/220789659-8aa6be07-8f07-4f23-966e-772abae7eeb1.png">
  
 5. Clone your fork of the repository from your Github acount
    
