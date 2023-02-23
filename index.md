@@ -395,6 +395,10 @@ On the other hand, I also used the command man in the terminal in order to find 
    
    From here on out, start your time so you can record how fast you can complete the following tasks!
    
+   You can go to google.com and search for *timer* and go to the stopwatch to record your time. Once you finish the last step, remember to stop the time to see how well you did!
+   
+   <img width="658" alt="Screen Shot 2023-02-22 at 4 25 02 PM" src="https://user-images.githubusercontent.com/87922125/220794543-e8901768-a676-46f4-99f4-f2a67bac664f.png">
+   
 4. Log into ieng6
 
    On your local terminal, use the following command to log in to your CSE15l course-specific account.
