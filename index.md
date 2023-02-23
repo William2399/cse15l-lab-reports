@@ -399,9 +399,6 @@ On the other hand, I also used the command man in the terminal in order to find 
 
    On your local terminal, use the following command to log in to your CSE15l course-specific account.
    
-   
-   *Keys pressed:* 
-
    <pre>
     ssh ssh cs15lwi23___@ieng6.ucsd.edu    &lt;enter&gt;
     Password: __________                   &lt;enter&gt;
@@ -418,16 +415,14 @@ On the other hand, I also used the command man in the terminal in order to find 
    <img width="1097" alt="Screen Shot 2023-02-22 at 3 51 58 PM" src="https://user-images.githubusercontent.com/87922125/220790338-6d4dc038-c50a-41d7-9ada-3fa42e807b61.png">
 
    Once you copied your SSH URL, go back to your remote account terminal and type in the following command
-   
-   *Keys pressed:* 
-
+  
    <pre>
     git clone git@github.com:username/lab7.git &lt;enter&gt;
     </pre>
    
-   Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
+      <img width="546" alt="Screen Shot 2023-02-22 at 4 05 14 PM" src="https://user-images.githubusercontent.com/87922125/220792001-ca3878e2-2742-4ea1-a032-d84dc3473c22.png">
    
-   *Keys pressed:* 
+   Please remember to replace *username* in the code above with your own Github Account username and the rest should be the same. If cloned successfully, the terminal should go to a new line without printing out anything. If you want to confirm if your git clone worked, you can type in the command ...
 
    <pre>
     ls &lt;enter&gt;
@@ -438,6 +433,23 @@ On the other hand, I also used the command man in the terminal in order to find 
    <img width="342" alt="Screen Shot 2023-02-22 at 3 55 32 PM" src="https://user-images.githubusercontent.com/87922125/220790801-4a599133-e28c-449c-b358-10ce3a9f4202.png">
 
 6. Run the tests, demonstrating that they fail
+   
+   First, you want to go to your newly cloned directory. This is doing using the *cd* command, can will change your working directory to the one you specify
+   
+   <pre>
+   cd lab7 &lt;enter&gt;
+   </pre>
+   
+   Next, in order to run the tests, you need to first compile the files in the directory and then run it using JUnit. This can be accomplished using the commands below ...
+   
+   <pre>
+   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java                                       &lt;enter&gt;
+   java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples   &lt;enter&gt;
+   </pre>
+   
+   The first command will compile all the files in the *lab7* directory and the following actually runs the JUnit tests that are present in TestListExamples.java. You should see that some tests fail and receive an output similar to the following screenshot.
+   
+      <img width="975" alt="Screen Shot 2023-02-22 at 4 05 50 PM" src="https://user-images.githubusercontent.com/87922125/220792073-ceacd542-1a54-462b-8d5d-25f4209cf326.png">
    
 7. Edit the code file to fix the failing test
    
