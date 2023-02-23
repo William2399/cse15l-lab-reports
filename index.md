@@ -453,6 +453,42 @@ On the other hand, I also used the command man in the terminal in order to find 
    
 7. Edit the code file to fix the failing test
    
+   The first step to correcting the code is to pull it up in nano. This can be accomplished by typing in the following
+   
+   <pre>
+   nano ListExamples.java &lt;enter&gt;
+   </pre>
+   
+   This should pull up the ListExamples.java file in nano.
+   
+   <img width="1131" alt="Screen Shot 2023-02-22 at 4 07 37 PM" src="https://user-images.githubusercontent.com/87922125/220792393-9864eff4-45cb-4e88-a439-2c5596755e1f.png">
+   
+   The bug that exists in the code is present in Line 43, Column 13. To quickly navigate to this spot in the code, simply do ...
+   
+   <pre>
+   ^_  &lt;enter&gt;
+   43, 13 &lt;enter&gt;
+   </pre>
+   
+   <img width="312" alt="Screen Shot 2023-02-22 at 4 10 08 PM" src="https://user-images.githubusercontent.com/87922125/220792749-0fa4984a-3bd1-4ea6-a924-93aa6954033a.png">
+
+   This will put your cursor exactly at the spot Line 43, Column 13. From here, all you need to do is to change the one in index1 to index2. To do this, type in 
+   
+   <pre>
+   &lt;delete&gt;
+   2 &lt;enter&gt
+   </pre>
+   
+   <img width="226" alt="Screen Shot 2023-02-22 at 4 10 27 PM" src="https://user-images.githubusercontent.com/87922125/220792781-fdef64f1-814c-41dd-924a-18e02238a420.png">
+
+   Now that you have corrected the file, you now need to save the changes and exit out of nano. This can be done using a single command, which is
+   
+   <pre>
+   ^X &lt;enter&gt
+   Y &lt;enter&gt
+   &lt;enter&gt
+   </pre>
+   
 8. Run the tests, demonstrating that they now succeed
    
 9. Commit and push the resulting change to your Github account
