@@ -2,7 +2,7 @@
 
 ## Challenge Tasks
    
-1. <u> **Setup** Delete any existing forks of the repository you have on your account </u>
+1. <ins> **Setup** Delete any existing forks of the repository you have on your account </ins>
    
       <img width="1007" alt="Screen Shot 2023-02-22 at 1 47 00 PM" src="https://user-images.githubusercontent.com/87922125/220766739-42d43abc-9350-4c87-bf6e-eeb9673d9a2a.png">
 
