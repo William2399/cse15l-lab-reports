@@ -28,7 +28,7 @@
 
       You will be prompted to type in the name of the directory to delete it.
    
-2. **Setup** Fork the repository
+2. <ins> **Setup** Fork the repository </ins>
    
    Go to the *lab 7 repo* and go to the top right and click the fork button. You will be directed to this page.
 
@@ -36,11 +36,11 @@
 
    Click on 'Create fork' in order to create a forked repository of the *lab 7 repo*. The process will take a few seconds, but you should then see your newly created lab 7 repository. 
    
-3. *The real deal* Start the timer!
+3. <ins> *The real deal* Start the timer! </ins>
    
    From here on out, start your time so you can record how fast you can complete the following tasks!
    
-4. Log into ieng6
+4. <ins> Log into ieng6 </ins>
 
    On your local terminal, use the following command to log in to your CSE15l course-specific account.
    
@@ -53,7 +53,7 @@
    
    <img width="1126" alt="Screen Shot 2023-02-22 at 3 49 27 PM" src="https://user-images.githubusercontent.com/87922125/220789659-8aa6be07-8f07-4f23-966e-772abae7eeb1.png">
  
-5. Clone your fork of the repository from your Github acount
+5. <ins> Clone your fork of the repository from your Github acount </ins>
 
    Next, you need to clone your forked repository of lab7 onto your remote account. This can be achieved by first getting the SSH clone URL from your Github repository. Navigate to your repository on your browser, click on the green *Code* button, select the *SSH* option and copy the following url. Here is a screenshot of what your page should look like.
    
@@ -77,7 +77,7 @@
    
    <img width="342" alt="Screen Shot 2023-02-22 at 3 55 32 PM" src="https://user-images.githubusercontent.com/87922125/220790801-4a599133-e28c-449c-b358-10ce3a9f4202.png">
 
-6. Run the tests, demonstrating that they fail
+6. <ins> Run the tests, demonstrating that they fail </ins>
    
    First, you want to go to your newly cloned directory. This is doing using the *cd* command, can will change your working directory to the one you specify
    
@@ -96,7 +96,7 @@
    
       <img width="975" alt="Screen Shot 2023-02-22 at 4 05 50 PM" src="https://user-images.githubusercontent.com/87922125/220792073-ceacd542-1a54-462b-8d5d-25f4209cf326.png">
    
-7. Edit the code file to fix the failing test
+7. <ins> Edit the code file to fix the failing test </ins>
    
    The first step to correcting the code is to pull it up in nano. This can be accomplished by typing in the following
    
@@ -134,7 +134,7 @@
    &lt;enter&gt
    </pre>
    
-8. Run the tests, demonstrating that they now succeed
+8. <ins> Run the tests, demonstrating that they now succeed </ins>
    
    Now, you need to do the same compile and run JUnit commands that you have previously done in Step 6. To accomplish this, you can do
    
@@ -144,7 +144,7 @@
    
    <img width="376" alt="Screen Shot 2023-02-22 at 4 17 27 PM" src="https://user-images.githubusercontent.com/87922125/220793660-fd372a96-6ebd-46c5-98d5-ee34948e61f3.png">
    
-9. Commit and push the resulting change to your Github account
+9. <ins> Commit and push the resulting change to your Github account </ins>
    
    Finally, the last step is to record these changes on your Github account. This is done by utilizing three separate git commands in the following order
    
