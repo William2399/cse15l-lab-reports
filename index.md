@@ -491,4 +491,34 @@ On the other hand, I also used the command man in the terminal in order to find 
    
 8. Run the tests, demonstrating that they now succeed
    
+   Now, you need to do the same compile and run JUnit commands that you have previously done in Step 6. To accomplish this, you can do
+   
+   *Keys pressed:* &lt;up&gt &lt;up&gt &lt;up&gt &lt;enter&gt, &lt;up&gt &lt;up&gt &lt;up&gt &lt;enter&gt
+   
+   By pressing the up keys, you are able to navigate to previously used commands. This is extremely helpful as then you do not have to type out the entire line of code just to do a task that you have already experienced before. The final enter will run the JUnit tests and you should see that all of them now pass
+   
+   <img width="376" alt="Screen Shot 2023-02-22 at 4 17 27 PM" src="https://user-images.githubusercontent.com/87922125/220793660-fd372a96-6ebd-46c5-98d5-ee34948e61f3.png">
+   
 9. Commit and push the resulting change to your Github account
+   
+   Finally, the last step is to record these changes on your Github account. This is done by utilizing three separate git commands in the following order
+   
+   <pre>
+   git add .                      &lt;enter&gt
+   git commit -m "Commit Message" &lt;enter&gt
+   git push                       &lt;enter&gt  
+   </pre>
+   
+      These three commands will collectively work together to record the changes made to your files, ready them for committing, and then pushing these recorded changes onto your Github account so that the code there is also updated for everyone to see! 
+   
+      <img width="1117" alt="Screen Shot 2023-02-22 at 4 20 07 PM" src="https://user-images.githubusercontent.com/87922125/220793959-20cefe62-94c7-4d29-9c82-c4f27c96c634.png">
+   
+   You can verify if the changes have actually registered back to your repository by simply refreshing the page. You should now see that they had been recently updated through commits.
+   
+   <img width="714" alt="Screen Shot 2023-02-22 at 4 21 32 PM" src="https://user-images.githubusercontent.com/87922125/220794126-fb49c789-bedd-467f-8e16-9810e8116542.png">
+   
+   And that is it! You have successfully gone through all the required steps to complete Week 7's lab tasks.
+
+   
+   
+
