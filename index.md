@@ -517,8 +517,4 @@ On the other hand, I also used the command man in the terminal in order to find 
    
    <img width="714" alt="Screen Shot 2023-02-22 at 4 21 32 PM" src="https://user-images.githubusercontent.com/87922125/220794126-fb49c789-bedd-467f-8e16-9810e8116542.png">
    
-   And that is it! You have successfully gone through all the required steps to complete Week 7's lab tasks.
-
-   
-   
-
+   And that is it! You have successfully gone through all the required steps to complete Week 7's lab tasks. The challenge now is to see how fast you can finish these tasks and whether you can find better methods of quickly doing them. Good luck!
