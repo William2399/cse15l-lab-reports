@@ -1,6 +1,6 @@
 # Week 9 Lab Report 5 (Tuesday, March 7)
 
-## Revisiting Lab Report 3
+## Revisiting Lab Report 3 - Exploring the *cat* command
 
 In this lab report, I will be performing the same type of task as we had done in Lab Report 3, which is to further explore the capabilities and use cases of a terminal command. I found this assignment to be very enjoyable, as I found it interesting to see the sheer variety of different things one can do with just a single command. 
 
